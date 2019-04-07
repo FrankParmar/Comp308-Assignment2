@@ -1,0 +1,52 @@
+<div class="panel panel-primary" style="border: 2px solid Green">
+  <div class="panel-body">
+    <h1 class="display-4">My Contact Information</h1>
+    <b>Phone Number: - (647) 778-8841</b>
+    <p></p>
+    <b>Email: parmarfrank@gmail.com</b>
+    <p></p>
+    <b
+      >LinkedIn:
+      <a href="https://www.linkedin.com/in/frankparmar/">Click Here</a></b
+    >
+    <p>
+      <b>GitHub: <a href="https://github.com/FrankParmar">Click Here</a></b>
+    </p>
+  </div>
+</div>
+<div class="panel panel-primary" style="border: 2px solid blue">
+  <div class="panel-body">
+    FirstName: <input type="text" name="fname" />
+    <p></p>
+    LasstName: <input type="text" name="fname" />
+    <p></p>
+    Contact Number: <input type="text" name="fname" />
+    <p></p>
+    Email Address:<input type="text" name="fname" />
+    <p></p>
+    Message:
+    <textarea
+      type="text"
+      placeholder="Enter a message"
+      name="message"
+      required
+    ></textarea>
+  </div>
+</div>
+<a role="button" type="submit" class="btn btn-primary" href="/">Submit</a>
+
+<app-base-page></app-base-page>>
+<div *ngIf="isLoggedIn()" class="container">
+  <div class="row">
+    <div class="col col-md-6">
+      <div class="card">
+        <h5 class="card-header alert-success">Secure</h5>
+        <div class="card-body">
+          <a routerLink="contact-list" class="btn btn-primary"
+            ><i class="fas fa-users fa-lg"></i> Contact List</a
+          >
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
